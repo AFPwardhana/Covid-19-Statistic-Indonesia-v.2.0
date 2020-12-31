@@ -1,0 +1,16 @@
+dataUpdateIndo.total.jumlah_positif
+dataUpdateIndo.total.jumlah_meninggal
+dataUpdateIndo.total.jumlah_sembuh
+
+
+const {
+    total: {
+      jumlah_positif: Positif,
+      jumlah_meninggal: Meninggal,
+      jumlah_sembuh: Sembuh,
+    } 
+  } = dataUpdateIndo;
+
+${isRed && " Kasus "} ${isYellow && " Meninggal "} ${
+          isGreen && " Sembuh "
+        }

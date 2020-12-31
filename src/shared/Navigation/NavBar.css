@@ -1,0 +1,17 @@
+.navi {
+  background-color: rgba(0, 0, 128);
+  border-radius: 100px;
+  margin: 5px 20px;
+  position: absolute;
+  width: -webkit-fill-available;
+  top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  nav .brand-logo {
+    font-size: 1.8rem !important;
+  }
+  .navi {
+    margin: 5px;
+  }
+}

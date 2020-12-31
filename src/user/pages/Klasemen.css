@@ -1,0 +1,31 @@
+.select-wrapper input.select-dropdown {
+  text-align: center;
+  border-bottom: none;
+  font-size: 20px;
+}
+
+.k {
+  margin-bottom: 1.5rem;
+}
+.dropdown-content {
+  width: max-content !important;
+  height: 7rem !important;
+}
+.cd {
+  color: #4a4a48;
+}
+
+.meninggal{
+  border: 3px solid rgba(232, 240, 68, 1);
+  background-color: rgba(232, 240, 68,.4) !IMPORTANT;
+  
+}
+.kasus{
+  border: 3px solid rgba(204, 16, 52, 1);
+  background-color: rgba(204, 16, 52, .4) !IMPORTANT;
+  
+}
+.sembuh{
+  border: 3px solid rgba(107, 163, 47, 1);
+  background-color:rgba(107, 163, 47, 0.4)!IMPORTANT
+}

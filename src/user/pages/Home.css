@@ -1,0 +1,53 @@
+.coba {
+  position: relative;
+  z-index: -1;
+}
+.bg {
+  position: absolute;
+  height: 80%;
+  bottom: 2%;
+  left: 20%;
+}
+.rounded {
+  border-radius: 20px !important;
+}
+.text {
+  position: absolute;
+  bottom: 50%;
+  right: 13%;
+}
+.text h1 {
+  font-size: 2.5rem;
+  color: wheat;
+}
+.ac {
+  height: 14.5rem;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+
+
+@media only screen and (max-width: 600px)
+{ 
+
+.homecard{
+  padding: 0 1.5rem !important;
+}
+
+.bg{
+    position: absolute;
+    height: 65%;
+}
+.text h1{
+    font-size: 1.1rem !important;
+}
+.text{
+    bottom: 30%;
+}
+.card .card-title {
+  font-size: 20px;
+}
+.select-wrapper input.select-dropdown {
+  font-size: 16px !important ;
+}
+}

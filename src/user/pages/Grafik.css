@@ -1,0 +1,7 @@
+.select-wrapper {
+    background-color: rgba(242,242,242,0.5);
+}
+.dropdown-content{
+    width: max-content !important;
+    height:7rem !important;
+ }
